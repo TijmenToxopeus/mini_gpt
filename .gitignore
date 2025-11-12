@@ -1,5 +1,27 @@
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
-.env/
+*.py[cod]
+*$py.class
+
+# Virtual environment (your env is called "gpt")
+gpt/
+env/
 venv/
+.venv/
+.env/
+
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Compiled extensions / binaries
+*.dll
+*.so
+*.dylib
+*.pyd
+
+# Logs and system files
+*.log
+*.DS_Store
+
+# VS Code settings
+.vscode/
